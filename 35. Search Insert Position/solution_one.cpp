@@ -1,10 +1,13 @@
 #include <vector>
 
-class Solution {
+class Solution
+{
 public:
-  int searchInsert(const std::vector<int> &nums, const int &target) {
+  int searchInsert(const std::vector<int> &nums, const int &target)
+  {
     int left = 0, right = nums.size() - 1, mid;
-    while (left <= right) {
+    while (left <= right)
+    {
       mid = left + (right - left) / 2;
       if (nums[mid] == target)
         return mid;
