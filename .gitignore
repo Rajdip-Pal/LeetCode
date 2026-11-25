@@ -3,3 +3,7 @@ templates.cpp
 trial*
 *template*.py
 *template*.cpp
+
+bun.lock
+package-lock.json
+node_modules
